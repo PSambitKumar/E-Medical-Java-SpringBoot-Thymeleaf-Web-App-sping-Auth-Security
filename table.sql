@@ -32,4 +32,9 @@ create or replace table user
 )
     engine = MyISAM
     charset = latin1;
+    
+    insert into hospital.user (id, confirmation_token, username, enabled, first_name, gender, last_name, password, authority, lastseen)
+    values  (23, '9860ed28-7ceb-4c5d-97d7-80fa34c88afd', 'psambitkumar0@gmail.com', true, 'sambit', 'Male', 'kumar', 'Sambitkumar@16', 'ROLE_USER', 'Fri Aug 05 10:59:58 IST 2022'),
+        (26, 'ByAdmin-Panel', 'sambit@gmail.com', true, 'Sambit Kumar', 'Male', 'Pradhan', 'default', 'ROLE_ADMIN', 'Tue Aug 23 10:41:26 IST 2022');
+
 
