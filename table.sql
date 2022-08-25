@@ -81,3 +81,9 @@ CREATE TABLE `user` (
 INSERT INTO `user` (`id`, `confirmation_token`, `username`, `enabled`, `first_name`, `gender`, `last_name`, `password`, `authority`, `lastseen`) VALUES
 (1, '36983cce-975b-4a92-bf73-a4f41978e01c', 'sambit@gmail.com', b'1', 'Sambit', 'MALE', 'Pradhan', 'sambitKumar', 'ROLE_ADMIN', 'Thu Aug 22 00:00:56 IST 2022');
 
+
+
+insert into hospital.user (id, confirmation_token, username, enabled, first_name, gender, last_name, password, authority, lastseen)
+values  (3, '9860ed28-7ceb-4c5d-97d7-80fa34c88afd', 'psambitkumar0@gmail.com', true, 'sambit', 'Male', 'kumar', 'Sambitkumar@16', 'ROLE_USER', 'Thu Aug 25 10:44:20 IST 2022'),
+        (4, 'ByAdmin-Panel', 'sambit@gmail.com', true, 'Sambit Kumar', 'Male', 'Pradhan', 'default', 'ROLE_ADMIN', 'Tue Aug 23 10:41:26 IST 2022');
+
